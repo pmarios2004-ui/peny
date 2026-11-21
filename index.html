@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Ή Πένη Βρωμάει</title>
+
+   
+
+ <style>
+
+   body {
+    
+    background-image: url("https://people.iee.ihu.gr/~dtektoni/gti/labs/lab4/img_tree.png"); 
+     
+    background-repeat: no-repeat; 
+    
+    background-position: right top;
+
+    background-color:#A37AA0;
+
+
+   }
+    table,th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+
+    }
+   .listp {
+    color:#7AA391; font-size: 27px;
+   } 
+ 
+   .photop {
+   float: left;
+   margin-right: 70px; 
+   }
+
+   .koumpi {
+    vertical-align: top; 
+    display: inline-block;
+    background-color:#7A8CA3 ;
+    color: #190454;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    position: relative; top: -30px;
+   }
+
+   .koumpiallaghs{
+    vertical-align: top;
+    display: inline-block; 
+    background-color: #190454;
+    margin-left: 50px; 
+    padding: 40px;
+    padding-top: 170; 
+    text-align: center;
+    background-image: url("https://images.steamusercontent.com/ugc/1843674649897355389/A63CA63D4DA4E87CEFE227B6A4531A7FBB17024E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+  </style>
+</head>
+
+
+<body>
+
+    <h1><b><font color="#7AA391" size="10" face="papyrus">Η πενη βρωμαει
+    </font>
+    </b></h1>
+
+ <div class="photop">
+    <a href="https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2018/07/poop_emoji.jpg">
+     <img src="peny.jpg" height="300" width="250" title="💩">
+    </a>
+  </div>  
+
+   <div class="listp">
+      Ή Πένη: <br>
+           <ul style="display: inline-block; vertical-align: top;">
+             <li>Δεν μυρίζει ωραία</li> 
+             <li>Δεν κάνει μπάνιο</li>
+             <li>Εχει μεγάλα πόδια</li>
+             <li><del>Είναι κούκλα</del></li>
+           </ul>
+            <div class="koumpiallaghs"> 
+              <button class="koumpi" onclick="doSomething()">
+               Click Me 
+              </button>
+              <h2 id="test" style="margin: 15px 0 0 0; color:brown;">Η Πένη μυρίζει ωραία</h2>
+            </div>  
+
+    </div>
+
+    
+
+ <br>
+
+ <div style="color:plum;font-size:xx-small;margin-bottom: 5px; position: relative; top: -20px"> 
+ Την αγαπώ </div>
+ <div>
+ <table style="position: relative; left: 0px; position: relative; top: -20px;">
+  <tr>
+    <th>Πένη</th>
+    <th>Μπάνια</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>March</td>
+    <td>3</td>
+  </tr>
+ </table>
+ </div>
+
+ <audio controls autoplay src="peny.fart.mp3" style=" display: block ; clear: both; position: relative; top: -7px;"></audio>
+
+ <script>
+   function doSomething(){
+       const el = document.getElementById("test");
+       if (el.innerHTML === "Η Πένη μυρίζει ωραία"){
+        el.innerHTML = "Η Πένη βρωμάει";
+       } else if (el.innerHTML === "Η Πένη βρωμάει"){
+      el.innerHTML = "Η Πένη βρωμάει ΠΟΛΥ";
+      } else {
+        (el.innerHTML = "Η Πένη μυρίζει ωραία");
+      }
+      
+   }
+ </script>
+ 
+</body>
+
+
+
+
+</html>
+
